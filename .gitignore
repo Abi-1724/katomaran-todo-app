@@ -1,0 +1,27 @@
+# ====================
+# Node.js Backend
+# ====================
+katomaran-todo-backend/node_modules/
+katomaran-todo-backend/.env
+katomaran-todo-backend/.DS_Store
+katomaran-todo-backend/Thumbs.db
+katomaran-todo-backend/.vscode/
+
+# ====================
+# Flutter Frontend (katomaran_todo_app)
+# ====================
+katomaran_todo_app/.dart_tool/
+katomaran_todo_app/.idea/
+katomaran_todo_app/.packages
+katomaran_todo_app/build/
+katomaran_todo_app/flutter_*.png
+katomaran_todo_app/.vscode/
+katomaran_todo_app/.DS_Store
+katomaran_todo_app/Thumbs.db
+
+# ====================
+# System & IDE
+# ====================
+.DS_Store
+Thumbs.db
+.vscode/
