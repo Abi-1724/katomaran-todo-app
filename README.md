@@ -35,12 +35,11 @@ This project includes a **Flutter mobile/web frontend** and a **Node.js + MongoD
 
 https://github.com/user-attachments/assets/ae750e53-b9bf-46cf-9233-5c20e5291172
 
-
-
-
-
+## Design Pattern
+-Follows MVC pattern in backend
+-Provider-based + Stateless/Stateful widget structure in Flutter frontend
+-Code is modular, clean, and maintainabl
 ### Backend
-
 cd katomaran-todo-backend
 npm install
 # Create .env file with MONGO_URI and Google credentials
@@ -62,7 +61,7 @@ katomaran-todo-backend/
 ├── controllers/
 ├── models/
 ├── routes/
-├── .env              # Not tracked by Git
+├── .env             
 ├── server.js
 │
 katomaran_todo_app/
@@ -75,5 +74,6 @@ katomaran_todo_app/
 
 Author
 Abinaya P
+This project is a part of a hackathon run by https://www.katomaran.com
 Katomaran Hackathon 2025 Submission
 GitHub: Abi-1724
