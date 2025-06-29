@@ -1,23 +1,23 @@
-# 📝 Katomaran Todo App
+# Katomaran Todo App
 
 A **cross-platform Todo Task Manager** built for the Katomaran Hackathon 2025.  
 This project includes a **Flutter mobile/web frontend** and a **Node.js + MongoDB backend**, featuring Google Login, task CRUD, and responsive UI.
-## 🚀 Features
+## Features
 
-- 🔐 Google Sign-In authentication
-- ✅ Create, Read, Update, Delete (CRUD) for tasks
-- 🌓 Filter tasks (Completed, Active, Overdue)
-- 🔄 Pull-to-refresh & Swipe-to-delete
-- 📱 Responsive design (Mobile & Web support)
-- ☁️ Connected to MongoDB Atlas
-- 📦 Secure environment with `.env` excluded from repo
-## 🛠️ Tech Stack
+- Google Sign-In authentication
+- Create, Read, Update, Delete (CRUD) for tasks
+- Filter tasks (Completed, Active, Overdue)
+- Pull-to-refresh & Swipe-to-delete
+- Responsive design (Mobile & Web support)
+- Connected to MongoDB Atlas
+- Secure environment with `.env` excluded from repo
+## Tech Stack
 
 | Frontend        | Backend        | Database     | Auth             |
 |----------------|----------------|--------------|------------------|
 | Flutter (Dart) | Node.js (Express) | MongoDB Atlas | Google OAuth 2.0 |
 
-## 📸 Screenshots
+## Screenshots
 
 ![Screenshot (331)](https://github.com/user-attachments/assets/291e36b2-b667-47bd-8e34-686e49e967cc)
 ![Screenshot (332)](https://github.com/user-attachments/assets/a4a5f070-5e02-4188-b17c-7965a07a3ac4)
@@ -30,7 +30,7 @@ This project includes a **Flutter mobile/web frontend** and a **Node.js + MongoD
 
 ---
 
-## 📽️ Demo Video
+## 📽Demo Video
 
 
 https://github.com/user-attachments/assets/ae750e53-b9bf-46cf-9233-5c20e5291172
@@ -39,7 +39,7 @@ https://github.com/user-attachments/assets/ae750e53-b9bf-46cf-9233-5c20e5291172
 
 
 
-### ✅ Backend
+### Backend
 
 cd katomaran-todo-backend
 npm install
@@ -51,12 +51,12 @@ cd katomaran_todo_app
 flutter pub get
 flutter run -d chrome 
 
-## 🔐 Environment Variables (.env)
+## Environment Variables (.env)
 MONGO_URI=your_mongodb_uri
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 
-## 📦 Folder Structure
+## Folder Structure
 katomaran-todo-backend/
 │
 ├── controllers/
@@ -73,7 +73,7 @@ katomaran_todo_app/
 
 
 
-👩‍💻 Author
+Author
 Abinaya P
 Katomaran Hackathon 2025 Submission
 GitHub: Abi-1724
